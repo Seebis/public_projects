@@ -14,10 +14,6 @@ pd.set_option('display.max_columns',None)
 #Load our data
 df = fetch_ucirepo(id=189) 
 
-
-# In[3]:
-
-
 #Split our dataset
 X = df.data.features 
 y = df.data.targets 
